@@ -18,10 +18,8 @@ jobs:
         with:
           node-version: 14
 
-      - name: 📥 Download deps
-        uses: bahmutov/npm-install@v1
-        with:
-          useLockFile: false
+      - name: 📥 Install dependencies
+        run: npm install
 
       - name: ▶️ Run deploy script
         run: npm run deploy

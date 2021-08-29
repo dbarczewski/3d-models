@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an app to display 3D models.
+
+By clicking and moving the mouse, you can rotate the camera. If you scroll, you can zoom in or out.
+
+You can choose your own 3D model, but only .glb formats are allowed.
+
+The models are not uploaded and not saved.
+
+Depending on the size of the model, you may need to zoom in or out.
+
+Thanks to [KhronosGroup](https://github.com/KhronosGroup/glTF-Sample-Models) for the fox model.
 
 ## Available Scripts
 
